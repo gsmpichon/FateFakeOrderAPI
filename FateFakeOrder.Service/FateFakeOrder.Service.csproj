@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FateFakerOrder.Model\FateFakeOrder.Data.csproj" />
+    <ProjectReference Include="..\FateFakeOrder.Data\FateFakeOrder.Data.csproj" />
   </ItemGroup>
 
 </Project>
