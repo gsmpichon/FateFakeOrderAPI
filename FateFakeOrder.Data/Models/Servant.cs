@@ -8,11 +8,10 @@ namespace FateFakeOrder.Data
     {
         public int Id { get; set; }
         
-        public int? FamiliarId { get; set; }
+        public int FamiliarId { get; set; }
 
         public int MasterId { get; set; }
         public Familiar Familiar { get; set; }
-        public Master Master { get; set; }
 
     }
 }

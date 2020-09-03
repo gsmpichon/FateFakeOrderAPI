@@ -11,7 +11,7 @@ namespace FateFakeOrder.Service.Interfaces
         Task<IEnumerable<Familiar>> GetAll();
         Task<Familiar> Get(int id);
         Task Save(Familiar familiar);
-        Task<IEnumerable<Servant>> GetServants(Familiar familiar);
+        Task<IEnumerable<Servant>> GetServants(int familiarID);
         Task Delete(int id);
     }
 }

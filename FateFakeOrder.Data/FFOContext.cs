@@ -20,7 +20,7 @@ namespace FateFakeOrder.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.;Initial Catalog=FateFakeOrderDB;Trusted_Connection = True;");
+                optionsBuilder.UseSqlServer("Server=.;Initial Catalog=.;User ID=.;Password=.;");
             }
         }
 

@@ -8,9 +8,10 @@ namespace FateFakeOrder.Service.Interfaces
 {
     public interface IServantService
     {
-        Task Get(int id);
+        Task<Servant> Get(int id);
         Task Save(Servant servant);
         Task Remove(int id);
+        Task<IEnumerable<Servant>> GetServants(int masterId); 
 
     }
 }

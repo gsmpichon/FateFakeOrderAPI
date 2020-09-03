@@ -12,7 +12,10 @@ namespace FateFakeOrder.Data
         }
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Servant> Servants { get; set;
+        public IEnumerable<Servant> Servants
+        {
+            get; set;
         }
     }
+
 }

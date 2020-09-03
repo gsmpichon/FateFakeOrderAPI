@@ -1,4 +1,5 @@
 ﻿using FateFakeOrder.Data;
+using FateFakeOrder.Model.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,5 +13,8 @@ namespace FateFakeOrder.Service.Interfaces
         Task Save(Master master);
 
         Task Delete(int id);
+
+        Task<IEnumerable<Master>> GetAll();
+        Task Update();
     }
 }
