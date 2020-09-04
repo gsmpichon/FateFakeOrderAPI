@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using AutoMapper;
 using FateFakeOrder.Data;
 using FateFakeOrder.Service.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FateFakeOrder.API.Controllers
 {
     [Route("api/servants")]
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [ApiController]
     public class ServantsController : Controller
     {

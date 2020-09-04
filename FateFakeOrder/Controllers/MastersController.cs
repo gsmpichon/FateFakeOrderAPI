@@ -7,11 +7,13 @@ using FateFakeOrder.Data;
 using FateFakeOrder.Model.Models;
 using FateFakeOrder.Model.Models.Master;
 using FateFakeOrder.Service.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FateFakeOrder.API.Controllers
 {
+    [Authorize(AuthenticationSchemes = "Bearer")]
     [Route("api/masters")]
     [ApiController]
 

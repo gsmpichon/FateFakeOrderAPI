@@ -6,12 +6,15 @@ using AutoMapper;
 using FateFakeOrder.Data;
 using FateFakeOrder.Model.Models.Familiar;
 using FateFakeOrder.Service.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FateFakeOrder.API.Controllers
 {
     [Route("api/familiars")]
+    [Authorize(AuthenticationSchemes = "Bearer")]
+
     [ApiController]
     public class FamiliarsController : ControllerBase
     {
@@ -24,6 +27,7 @@ namespace FateFakeOrder.API.Controllers
             _mapper = mapper;
         }
         [HttpGet]
+
         public async Task<ActionResult<IEnumerable<FamiliarReadModel>>> GetAll()
         {
             IEnumerable<FamiliarReadModel> familiars =  _mapper.Map<IEnumerable<FamiliarReadModel>>(await _ifam.GetAll());
@@ -32,6 +36,7 @@ namespace FateFakeOrder.API.Controllers
 
         }
         [HttpGet("{id}", Name = "GetFamiliarById")]
+
         public async Task<ActionResult<Familiar>> GetFamiliarById(int id)
         {
             return Ok(await _ifam.Get(id));
@@ -47,7 +52,6 @@ namespace FateFakeOrder.API.Controllers
         }
 
         [HttpDelete("{id}")]
-
         public async Task<ActionResult> DeleteFamiliar(int id)
         {
             await _ifam.Delete(id);
