@@ -1,8 +1,10 @@
 ﻿using FateFakeOrder.Data.Models;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
-namespace FateFakeOrder.Service.Interfaces
+namespace FateFakeOrder.API.Interfaces
 {
     public interface IUserService
     {

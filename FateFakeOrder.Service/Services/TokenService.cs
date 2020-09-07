@@ -15,7 +15,6 @@ namespace FateFakeOrder.Service.Services
 {
     public class TokenService : ITokenService
     {
-        private readonly IUserService _userService;
         private readonly AuthenticationConfig _authenticationConfig;
 
 

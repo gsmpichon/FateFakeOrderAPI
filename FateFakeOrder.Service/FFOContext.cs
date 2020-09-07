@@ -1,10 +1,11 @@
-﻿using FateFakeOrder.Data.Models;
+﻿using FateFakeOrder.Data;
+using FateFakeOrder.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FateFakeOrder.Data
+namespace FateFakeOrder.Service
 {
     public class FFOContext : DbContext
     {

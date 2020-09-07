@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FateFakeOrder.API.Interfaces;
 using FateFakeOrder.Data.Models;
 using FateFakeOrder.Service.Interfaces;
 using Microsoft.AspNetCore.Authorization;

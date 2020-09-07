@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using FateFakeOrder.API.Interfaces;
+using FateFakeOrder.API.Services;
 using FateFakeOrder.Data;
 using FateFakeOrder.Data.Models;
+using FateFakeOrder.Service;
 using FateFakeOrder.Service.Interfaces;
 using FateFakeOrder.Service.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -67,7 +70,8 @@ namespace FateFakeOrder
             services.AddScoped<IFamiliarService, FamiliarService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ITokenService, TokenService>();
-            
+
+            services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
 
 
         }

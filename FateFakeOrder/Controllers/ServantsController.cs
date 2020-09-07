@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using FateFakeOrder.API.Interfaces;
 using FateFakeOrder.Data;
 using FateFakeOrder.Service.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -16,7 +17,7 @@ namespace FateFakeOrder.API.Controllers
     public class ServantsController : Controller
     {
         private readonly IServantService _iServant;
-        private readonly IMapper _iMapper;
+        //private readonly IMapper _iMapper;
 
         public ServantsController(IServantService iServant)
         {

@@ -1,11 +1,10 @@
 ﻿using FateFakeOrder.Data;
-using FateFakeOrder.Model.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 
-namespace FateFakeOrder.Service.Interfaces
+namespace FateFakeOrder.API.Interfaces
 {
     public interface IMasterService
     {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using FateFakeOrder.API.Interfaces;
 using FateFakeOrder.Data;
 using FateFakeOrder.Model.Models.Familiar;
 using FateFakeOrder.Service.Interfaces;
@@ -14,7 +15,6 @@ namespace FateFakeOrder.API.Controllers
 {
     [Route("api/familiars")]
     [Authorize(AuthenticationSchemes = "Bearer")]
-
     [ApiController]
     public class FamiliarsController : ControllerBase
     {
@@ -43,6 +43,7 @@ namespace FateFakeOrder.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(AuthenticationSchemes = "Bearer")]
         public async Task<ActionResult<Familiar>> SaveFamiliar(FamiliarCreateModel familiarCreateModel)
         {
             var familiarModel = _mapper.Map<Familiar>(familiarCreateModel);
