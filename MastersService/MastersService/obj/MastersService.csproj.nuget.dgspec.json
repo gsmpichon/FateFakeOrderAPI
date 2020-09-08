@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Personal Repos\\FFO\\FateFakeOrder\\MastersService\\MastersService\\MastersService.csproj": {}
+  },
+  "projects": {
+    "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\FateFakeOrder.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\FateFakeOrder.Data.csproj",
+        "projectName": "FateFakeOrder.Data",
+        "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\FateFakeOrder.Data.csproj",
+        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Model\\FateFakeOrder.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Model\\FateFakeOrder.Model.csproj",
+        "projectName": "FateFakeOrder.Model",
+        "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Model\\FateFakeOrder.Model.csproj",
+        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Service\\FateFakeOrder.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Service\\FateFakeOrder.Infrastructure.csproj",
+        "projectName": "FateFakeOrder.Infrastructure",
+        "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Service\\FateFakeOrder.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\FateFakeOrder.Data.csproj": {
+                "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\FateFakeOrder.Data.csproj"
+              },
+              "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Model\\FateFakeOrder.Model.csproj": {
+                "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Model\\FateFakeOrder.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Personal Repos\\FFO\\FateFakeOrder\\MastersService\\MastersService\\MastersService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Personal Repos\\FFO\\FateFakeOrder\\MastersService\\MastersService\\MastersService.csproj",
+        "projectName": "MastersService",
+        "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\MastersService\\MastersService\\MastersService.csproj",
+        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\MastersService\\MastersService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\FateFakeOrder.Data.csproj": {
+                "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Data\\FateFakeOrder.Data.csproj"
+              },
+              "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Service\\FateFakeOrder.Infrastructure.csproj": {
+                "projectPath": "D:\\Personal Repos\\FFO\\FateFakeOrder\\FateFakeOrderAPI\\FateFakeOrder.Service\\FateFakeOrder.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
