@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>3517f3c8-8197-4c15-a58d-1c9b60967ec8</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FateFakeOrder.Data\FateFakeOrder.Data.csproj" />
+    <ProjectReference Include="..\FateFakeOrder.Service\FateFakeOrder.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
